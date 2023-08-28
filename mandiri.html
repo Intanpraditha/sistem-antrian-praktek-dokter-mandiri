@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistem Antrian</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" type="x-icon" href="img/dazai.jpeg">
+</head>
+<body>
+  <div class="wrapper">
+      <div class="sct brand"><h3>dr. Osamu</h3></div>
+      <div class="sct login">
+          <form>
+              <h3>Daftar Antrian Online</h3>
+              <p>Pasien Mandiri</p>
+              <!-- <select name="penjamin" id="">
+                <option value="bjs">BPJS</option>
+                <option value="mandiri">SWASTA/MANDIRI</option>
+              </select> -->
+              <input type="number" name="nik" placeholder="NIK (Nomor KTP)">
+              <input type="text" name="nama" placeholder="Nama Lengkap">
+              <select name="jk" id="">
+                <option value="">Jenis Kelamin</option>
+                <option value="L">Laki-laki</option>
+                <option value="P">Perempuan</option>
+              </select>
+              <input type="number" name="usia" placeholder="Usia/Umur">
+              <input type="text" name="no.telp" placeholder="Nomor Telepon">
+              <input type="email" name="email" placeholder="Alamat Email (Opsional)">
+              <!-- <input type="password" name="password" placeholder="Password"> -->
+              <div class="forgot-remember">
+                      <label class="control control-checkbox">
+                        <b>Saya menyetujui bahwa data yang saya input benar, Apabila di kemudian hari ada kesalahan saya akan bertanggung jawab</b>
+                              <input type="checkbox" />
+                              <div class="control_indicator"></div>
+                          </label>
+                  <!-- <div class="forgot">
+                          <a href="#">Forgot Password?</a>
+                  </div>  -->
+              </div>
+              <input type="submit" name="send" value="Kirimkan">
+              <a style="color: rgb(34, 156, 255) ; font-size: 12px" href="bpjs.html">Daftar dengan BPJS</a><br><br>
+              <!-- <p class="text-center">Sign up with<br><i class="fa fa-hand-o-down" aria-hidden="true"></i></p>
+              <div class="social-sign">
+                  <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                  <a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                  <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+              </div> -->
+          </form>
+      </div> <!--end login-->
+  </div> <!--end wrapper-->
+</body>
+</html>
